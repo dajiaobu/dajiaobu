@@ -1,0 +1,374 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+li {
+    list-style:none;
+}
+
+a {
+    text-decoration:none;
+}
+/*导航*/
+.nav {
+    width:100%;
+    height:100px;
+    background-color:#2C85D7;
+}
+.nav-list {
+    height:100px;
+    width:62.3%;
+    margin:0 auto;
+}
+.left {
+    float:left;
+}
+.left li{
+    float:left;
+    line-height:100px;
+    text-align:center;
+    width:85px;
+}
+.left li a {
+    color:#fff;
+    font-size:16px;
+}
+.left li:hover{
+    background:#F8C24D;
+}
+.right{
+    float:right;
+}
+.right li {
+    float:right;
+    line-height:100px;
+    text-align:center; 
+    width:85px;
+}
+.right li:hover{
+    background:#F8C24D;
+}
+.right li a {
+    color:#fff;
+    font-size:16px;
+}
+.log {
+    height:100px;
+    width:95px;
+    background:#fff;
+    margin:0 auto;
+    
+}
+.log .log-list{
+    position:relative;
+    height:100px;
+    width:90px;
+    margin:0 auto;
+    z-index:999;
+}
+.log .log-list .img{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:10;
+}
+/*导航*/
+
+/*轮播*/
+.box {
+    margin: 0 auto;
+    width: 100%;
+    height: 570px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    float: left;
+    width:2278.8px;
+    height:570px;
+}
+
+.tab {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.tab span {
+    display: inline-block;
+    margin: 0 5px;
+    width: 70px;
+    height: 10px;
+    background: gray;
+    cursor: pointer;
+}
+
+.tab span.activied {
+    background: #EFA300;
+}
+/*轮播*/
+
+/*名胜*/
+.scenic-spot{
+    width:100%;
+    height:568px;
+    background:#ECF4E2;
+    margin:0;
+}
+.mounment{
+    padding-top:45px;
+}
+.mounment .span{
+    position:relative;
+    margin:0 auto;
+    height:41px;
+    width:249px;
+    text-align:center;
+    font-size:30px;
+}
+.mounment .span .span1{
+    line-height:41px;
+    color:#5A9409;
+    font-weight:700;
+}
+.mounment .span .span2{
+    position:absolute;
+    left:0;
+    top:7px;
+    display:inline-block;
+    height:28px;
+    width:249px;
+    border-left:solid 2px #C0D7A0 ;
+    border-right:solid 2px #C0D7A0 ;
+}
+.mounment .line1{
+    float:left;
+    height:19px;
+    width:635px;
+    border-bottom: solid 2px #C0D7A0 ;
+}
+.mounment .line2{
+    float:right;
+    height:19px;
+    width:635px;
+    border-bottom: solid 2px #C0D7A0 ;
+}
+.scenery{
+    width:950px;
+    height:361px;
+    margin:45px auto;
+}
+.scenery img{
+    width:100%;
+}
+.scenery .scenery1{
+    float:left;
+    height:361px;
+    width:596px;
+    overflow:hidden;
+}
+.scenery .picture1{
+    position:relative;
+    float:left;
+    height:361px;
+    width:188px;
+}
+.scenery .picture1 span{
+    position:absolute;
+    top:4px;
+    left:4px;
+    display:inline-block;
+    height:280px;
+    width:176px;
+    border: solid 1px #fff;
+    transition:all 1s linear;
+    transform:rotate(0deg);
+    transform-origin:left top;
+    opacity: 1;
+}
+.picture1:hover span {
+    opacity: 0;
+    transform:rotate(270deg);
+    transform-origin:left top;
+}
+.scenery .picture2{
+    position:relative;
+    margin-left:10px;
+    margin-bottom:0;
+    float:left;
+    height:155px;
+    width:392px;
+}
+.scenery .picture2 span{
+    position:absolute;
+    top:4px;
+    left:4px;
+    display:inline-block;
+    height:130px;
+    width:380px;
+    border: solid 1px #fff;
+    transition:all 1s linear;
+    transform:rotate(0deg);
+    transform-origin:left top;
+    opacity: 1;
+}
+.picture2:hover span {
+    opacity: 0;
+    transform:rotate(270deg);
+    transform-origin:left top;
+}
+.scenery .picture3{
+    position:relative;
+    margin-left:10px;
+    float:left;
+    height:170px;
+    width:188px;
+}
+.scenery .picture3 span{
+    position:absolute;
+    top:4px;
+    left:4px;
+    display:inline-block;
+    height:128px;
+    width:176px;
+    border: solid 1px #fff;
+    transition:all 1s linear;
+    transform:rotate(0deg);
+    transform-origin:left top;
+    opacity: 1;
+}
+.picture3:hover span {
+    opacity: 0;
+    transform:rotate(270deg);
+    transform-origin:left top;
+}
+.scenery .picture4{
+    position:relative;
+    margin-left:10px;
+    float:left;
+    height:170px;
+    width:188px;
+}
+.scenery .picture4 span{
+    position:absolute;
+    top:4px;
+    left:4px;
+    display:inline-block;
+    height:128px;
+    width:176px;
+    border: solid 1px #fff;
+    transition:all 1s linear;
+    transform:rotate(0deg);
+    transform-origin:left top;
+    opacity: 1;
+}
+.picture4:hover span {
+    opacity: 0;
+    transform:rotate(270deg);
+    transform-origin:left top;
+}
+.scenery .scenery2{
+    position:relative;
+    float:left;
+    margin-left:10px;
+    width:330px;
+    height:361px;
+}
+.scenery .picture5{
+    position:relative;
+    float:left;
+    height:361px;
+    width:157px;
+}
+.scenery .picture5 span{
+    position:absolute;
+    top:4px;
+    left:4px;
+    display:inline-block;
+    height:281px;
+    width:147px;
+    border: solid 1px #fff;
+    transition:all 1s linear;
+    transform:rotate(0deg);
+    transform-origin:left top;
+    opacity: 1;
+}
+.picture5:hover span {
+    opacity: 0;
+    transform:rotate(270deg);
+    transform-origin:left top;
+}
+.scenery .picture6{
+    position:relative;
+    margin-left:10px;
+    float:left;
+    height:361px;
+    width:157px;
+}
+.scenery .picture6 span{
+    position:absolute;
+    top:4px;
+    left:4px;
+    display:inline-block;
+    height:281px;
+    width:147px;
+    border: solid 1px #fff;
+    transition:all 1s linear;
+    transform:rotate(0deg);
+    transform-origin:left top;
+    opacity: 1;
+}
+.picture6:hover span {
+    opacity: 0;
+    transform:rotate(270deg);
+    transform-origin:left top;
+}
+/*名胜*/
+
+/*介绍*/
+.foot{
+    height:575px;
+    width:100%;
+    background:#E4F6F4;
+    padding-top:83px;
+}
+.present {
+    height:408px;
+    width:1100px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.present ul li{
+    float:left;
+    height:408px;
+    width:100px;
+}
+.present ul .pic5{
+    width:600px;
+}
+.present1 {
+    float:left;
+    height:408px;
+    width:100px;
+}
+.present1 img{
+    height:408px;
+    width:100px;
+}
+.present ul .p1{
+    background:#fff;
+    height:408px;
+}
+.present ul .p1 p{
+    font-size:20px;
+    letter-spacing:4px;
+}
+/*介绍*/
